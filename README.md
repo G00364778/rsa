@@ -23,7 +23,7 @@ rsa_lib.py can simply be copied and run as is in a python environment.
   
 lib_rsa.py must be instantiated and then manipulated.
 
-```python
+```ipython
 In [1]: import lib_rsa as l
 
 In [2]: k=l.rsa()
