@@ -1,5 +1,9 @@
 # Python RSA implementation
 
+## Disclaimer
+
+The RSA key samples in this repository are compromised. Do not use these in you applications, please generate new ones.  
+
 ## Files
 
 This repository contains two RSA style encryption/decription implementations using puthon and standard puthon libraries.
