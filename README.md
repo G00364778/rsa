@@ -22,7 +22,8 @@ There aro also two test messages, one encrypted and one decrypted or plain text,
 rsa_lib.py can simply be copied and run as is in a python environment. 
   
 lib_rsa.py must be instantiated and then manipulated.
-  
+
+```python
 In [1]: import lib_rsa as l
 
 In [2]: k=l.rsa()
@@ -59,5 +60,5 @@ In [4]: k.readfile('msg.bin')
 
 In [5]: k.decrypt()
 Decrypted message: The rain in Spain falls mainly in the plane.
-
+```
 
