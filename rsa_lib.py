@@ -59,7 +59,7 @@ def rsa_keys_print(keyPair):
   #get and print the publick key
   pubKey = keyPair.publickey()
   # print f - embed format literals inside string using {}
-  #print(f"Public key:  (n = {hex(pubKey.n)}, e = {hex(pubKey.e)})\n") 
+  #print(f"Public key:  (n = {MD5(pubKey.n)}, e = {hex(pubKey.e)})\n") 
   pubKeyPEM = pubKey.exportKey().decode('ascii')
   print('\n{}\n'.format(pubKeyPEM))
 
