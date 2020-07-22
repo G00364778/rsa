@@ -10,6 +10,7 @@ This repository contains two RSA style encryption/decription implementations usi
 
   - rsa_lib.py - procedural implementation with working examples
   - lib_rsa.py - object oriented implementation 
+  - mac.py - extract all the ip and mac addresses on the local server/pc
 
 The repository also cantains a key pair, a public key and a private key. Public keys are used for encryption and private keys are require for decryption. The public key is a subset of the private key. 
 
