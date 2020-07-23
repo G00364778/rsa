@@ -17,9 +17,9 @@ setup(name='pyRSAImplementation',
       author='Jattie van der Linde',
       author_email='g00364778@gmit.ie',
       license='Apache License, Version 2.0',
-      packages=['lib_rsa','rsa_lib'],
+      #packages=['lib_rsa','rsa_lib'],
       package_data={
-        '': ['keyRSA.pri','keyRSA.pub','msg.bin','msg.txt']
+        '': ['lib_rsa.py','rsa_lib.py','keyRSA.pri','keyRSA.pub','msg.bin','msg.txt']
       },
       zip_safe=False,
       #install_requires=requirements,
