@@ -10,17 +10,18 @@ def read(fname):
 
 #requirements = read('requirements.txt').splitlines()
 
-setup(name='pyRSAImplementation',
+setup(name='telmsRSA',
       version='0.0.1',
       description='Python RSA Implementation Library: Feature Key Creation, Key Reading, Message encryption and decryption',
       url='https://github.com/g00364778/rsa',
       author='Jattie van der Linde',
       author_email='g00364778@gmit.ie',
       license='Apache License, Version 2.0',
+      py_modules=['lib_rsa','rsa_lib','mac'],
       #packages=['lib_rsa','rsa_lib'],
-      package_data={
-        '': ['lib_rsa.py','rsa_lib.py','keyRSA.pri','keyRSA.pub','msg.bin','msg.txt']
-      },
+      #package_data={
+      #  '': ['lib_rsa.py','rsa_lib.py','keyRSA.pri','keyRSA.pub','msg.bin','msg.txt']
+      #},
       zip_safe=False,
       #install_requires=requirements,
       )
