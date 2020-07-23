@@ -123,7 +123,7 @@ def test_decrypt_msg(filename='msg.bin'):
   decrypted = message_decrypt(encrypted, keyPriv, verbose=False)
   print(f'{decrypted}')
 
-  if __name__ == '__main__':
+if __name__ == '__main__':
 
   #keyPair=rsa_gen_keys()
   #rsa_keys_print(keyPair)
