@@ -1,5 +1,7 @@
 import os
 from setuptools import setup
+import pathlib
+
 
 def read(fname):
   try:
@@ -9,6 +11,10 @@ def read(fname):
     return ''
 
 #requirements = read('requirements.txt').splitlines()
+here = pathlib.Path(__file__).parent.resolve()
+long_description = (here / 'README.md').read_text(encoding='utf-8')
+
+
 
 setup(name='telmsRSA',
   version='0.0.1',
