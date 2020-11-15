@@ -24,12 +24,11 @@ There aro also two test messages, one encrypted and one decrypted or plain text,
   
 ## Installation and removal
 
-pip install git+https://github.com/g00364778/rsa.git#egg=telmsRSA
-conda install git+https://github.com/g00364778/rsa.git#egg=telmsRSA
+  - pip install git+https://github.com/g00364778/rsa.git#egg=telmsRSA
+  - conda install git+https://github.com/g00364778/rsa.git#egg=telmsRSA
 
-pip uninstall telmsrsa
-conda uninstall telmsrsa
-
+  - pip uninstall telmsrsa
+  - conda uninstall telmsrsa
 
 ## Usage
   
