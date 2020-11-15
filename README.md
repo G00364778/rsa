@@ -22,6 +22,15 @@ There aro also two test messages, one encrypted and one decrypted or plain text,
   - msg.txt - a plain text unencrypted message
   - msg.bin -  a binary file format encrypted message, can be viewed in a plian text format to see encryption.
   
+## Installation and removal
+
+pip install git+https://github.com/g00364778/rsa.git#egg=telmsRSA
+conda install git+https://github.com/g00364778/rsa.git#egg=telmsRSA
+
+pip uninstall telmsrsa
+conda uninstall telmsrsa
+
+
 ## Usage
   
 rsa_lib.py can simply be copied and run as is in a python environment. 
