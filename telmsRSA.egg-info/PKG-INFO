@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: telmsRSA
+Version: 0.0.1
+Summary: Python RSA Implementation Library: Feature Key Creation, Key Reading, Message encryption and decryption
+Home-page: https://github.com/g00364778/rsa
+Author: Jattie van der Linde
+Author-email: g00364778@gmit.ie
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5, <4

@@ -1,5 +1,5 @@
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 import pathlib
 
 
@@ -23,8 +23,12 @@ setup(name='telmsRSA',
   author='Jattie van der Linde',
   author_email='g00364778@gmit.ie',
   license='Apache License, Version 2.0',
-  py_modules=['lib_rsa','rsa_lib','mac'],
-  data_files=[('lib/site-packages', ['msg.txt'])],  # Optional
+  packages=find_packages(where='.', exclude=(), include=('*',)), # find_packages(where='rsa'),
+  package_data={  # Optional
+    'rsa': ['msg.txt','msg.bin','keyRSA.pri','keyRSA.pub'],
+  },
+  #py_modules=['lib_rsa','rsa_lib','mac'],
+  #data_files=[('lib/site-packages', ['msg.txt'])],  # Optional
   #packages=['lib_rsa','rsa_lib'],
   #package_data={
   #  '': ['lib_rsa.py','rsa_lib.py','keyRSA.pri','keyRSA.pub','msg.bin','msg.txt']
