@@ -24,6 +24,8 @@ There aro also two test messages, one encrypted and one decrypted or plain text,
   
 ## Installation and removal
 
+Since writing and testing the installers git secirity updates broke this method of installing, this no longer works and requires rework. 
+
   - pip install git+https://github.com/g00364778/rsa.git#egg=telmsRSA
   - conda install git+https://github.com/g00364778/rsa.git#egg=telmsRSA
 
